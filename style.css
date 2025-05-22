@@ -4,11 +4,21 @@
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
   min-height: 4000px;
-  overflow-x: hidden;
 }
 
 .hero::before {
@@ -90,6 +100,7 @@ body {
   padding-bottom: 5rem;
 }
 
+
 .home h2,
 .info h2,
 .story h2,
@@ -120,6 +131,7 @@ body {
 .home .couple h3 {
   font-family: 'Sacramento';
   font-size: 2.4rem;
+  font-weight: bold;
   color: var(--pink);
 }
 
@@ -136,6 +148,7 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 50%;
+  z-index: 999;
   transform: translateX(-50%) translateY(65px);
 }
 
