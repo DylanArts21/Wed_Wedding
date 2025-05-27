@@ -92,7 +92,7 @@ body {
 }
 
 .home {
-  background-image: url(img/bg\ biru\ bunga\ 2.jpg);
+  background-image: url(img/bg\ biru\ bunga\ 2\ low.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
@@ -513,7 +513,7 @@ footer li {
 
 
 .col-8 p{
-  background-color: rgba(252, 245, 245, 0.76);
+  background-color: rgba(252, 245, 245, 0.80);
   border-radius: 10px;
   padding: 10px;
 }
